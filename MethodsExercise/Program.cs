@@ -4,22 +4,32 @@
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Enter a kind of animal: ");
-            //string animal = Console.Readline();
-            //Console.WriteLine("Enter in a color: ");
-            //string color = Console.ReadLine();
-            //Console.WriteLine("Enter a type of fruit: ");
-            //string fruit = Console.ReadLine();
-            //Console.WriteLine("Enter a type of shape: ");
-            //string shape = Console.ReadLine();
-            //Console.WriteLine($"Who lives in a {fruit} under the sea? \n" +
-            //                 $"Absorbant and {color} is he. If nautical \n" +
-            //                 $"nonsense be something you wish? Then drop on the deck \n" +
-            //                 $"and flop like a {animal}. Ready?  Spongebob  {shape} pants!");
+            ////Exercise 1
+            //Name: Michael
+            //Favorite Color: Blue
+            //Favorite Animal: Walrus
+            //Favorite Band: The Beatles
 
-            int answer = Methods.Add(5,5);
-            Console.WriteLine(answer);
-            }
+            Console.WriteLine("Hello - What is your first name?"); //output
+            var userName = Console.ReadLine(); //input
+
+            Console.WriteLine($"Hi, {userName}. What is your favorite color?"); //output
+            var color = Console.ReadLine(); //input
+
+            Console.WriteLine($"{color} is an awesome color! What is your favorite animal?"); //output
+            var animal = Console.ReadLine(); //input
+
+            Console.WriteLine("Excellent! Now, what is your fvorite band?"); //output
+            var band = Console.ReadLine(); //input
+
+            Console.WriteLine($"Thanks, {userName}! Here is your profile");
+            Console.WriteLine("--------------------------------------");
+
+            Console.WriteLine($"Name: {userName}");
+            Console.WriteLine($"Favorite color: {color}");
+            Console.WriteLine($"Favorite Animal: {animal}");
+            Console.WriteLine($"Favorite Band: {band}");
+
         }
     }
 }

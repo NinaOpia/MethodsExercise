@@ -6,14 +6,18 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.MethodsExercise PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Calculations.cs">
     <Files>
-      <File FileName="Program.cs" Line="4" Column="6" />
+      <File FileName="Methods.cs" Line="22" Column="39" />
+      <File FileName="Program.cs" Line="8" Column="12" />
+      <File FileName="Calculations.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MethodsExercise" expanded="True" selected="True" />
+          <Node name="MethodsExercise" expanded="True">
+            <Node name="MethodsExercise" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
