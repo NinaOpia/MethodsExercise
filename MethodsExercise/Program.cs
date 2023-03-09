@@ -1,10 +1,33 @@
-﻿using System.Drawing;
-
-namespace MethodsExercise
+﻿namespace MethodsExercise
 {
     public class Program
     {
+
         //Exercise 1
+        public static void Main(string[] args)
+        {
+            int amountOfCars = Sum(2, 6);
+            int Samp = Multiply(60, 2);
+
+            Console.WriteLine("Give me a number to add");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Give me a number to add to the first one");
+            int num2 = int.Parse(Console.ReadLine());
+
+            int sum = Sum(num1, num2);
+            Console.WriteLine($"The sum is: {sum}");
+
+            Console.WriteLine("Give me a number");
+            num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Give me a number to multiply to the first one");
+            num2 = int.Parse(Console.ReadLine());
+
+            int product = Multiply(num1, num2);
+            Console.WriteLine($"The product is: {product}");
+        }
+
 
         public static void MadLib()
         {
@@ -49,32 +72,6 @@ namespace MethodsExercise
             int multiply = num1 * num2;
 
             return num1 * num2;
-        }
-
-
-        public static void Main(string[] args)
-        {
-
-            int amountOfCars = Sum(2, 6);
-            int Samp = Multiply(60, 2);
-
-            Console.WriteLine("Give me a number to add");
-            int num1 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Give me a number to add to the first one");
-            int num2 = int.Parse(Console.ReadLine());
-
-            int sum = Sum(num1, num2);
-            Console.WriteLine($"The sum is: {sum}");
-
-            Console.WriteLine("Give me a number");
-            num1 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Give me a number to multiply to the first one");
-            num2 = int.Parse(Console.ReadLine());
-
-            int product = Multiply(num1, num2);
-            Console.WriteLine($"The product is: {product}");
         }
 
 
